@@ -16,6 +16,17 @@
 		D3245E5E26D2FBF200728CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3245E5C26D2FBF200728CCA /* LaunchScreen.storyboard */; };
 		D3245E6926D2FBF200728CCA /* ATM_ConsultoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E6826D2FBF200728CCA /* ATM_ConsultoriaTests.swift */; };
 		D3245E7426D2FBF200728CCA /* ATM_ConsultoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E7326D2FBF200728CCA /* ATM_ConsultoriaUITests.swift */; };
+		D3245E8C26D2FC7F00728CCA /* detalhe_cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8126D2FC7E00728CCA /* detalhe_cliente.png */; };
+		D3245E8D26D2FC7F00728CCA /* detalhe_contato.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8226D2FC7E00728CCA /* detalhe_contato.png */; };
+		D3245E8E26D2FC7F00728CCA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8326D2FC7E00728CCA /* logo.png */; };
+		D3245E8F26D2FC7F00728CCA /* menu_empresa.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8426D2FC7E00728CCA /* menu_empresa.png */; };
+		D3245E9026D2FC7F00728CCA /* detalhe_servico.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8526D2FC7E00728CCA /* detalhe_servico.png */; };
+		D3245E9126D2FC7F00728CCA /* menu_cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8626D2FC7F00728CCA /* menu_cliente.png */; };
+		D3245E9226D2FC7F00728CCA /* cliente2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8726D2FC7F00728CCA /* cliente2.png */; };
+		D3245E9326D2FC7F00728CCA /* cliente1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8826D2FC7F00728CCA /* cliente1.png */; };
+		D3245E9426D2FC7F00728CCA /* menu_servico.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8926D2FC7F00728CCA /* menu_servico.png */; };
+		D3245E9526D2FC7F00728CCA /* detalhe_empresa.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8A26D2FC7F00728CCA /* detalhe_empresa.png */; };
+		D3245E9626D2FC7F00728CCA /* menu_contato.png in Resources */ = {isa = PBXBuildFile; fileRef = D3245E8B26D2FC7F00728CCA /* menu_contato.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		D3245E6F26D2FBF200728CCA /* ATM ConsultoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATM ConsultoriaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3245E7326D2FBF200728CCA /* ATM_ConsultoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM_ConsultoriaUITests.swift; sourceTree = "<group>"; };
 		D3245E7526D2FBF200728CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3245E8126D2FC7E00728CCA /* detalhe_cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detalhe_cliente.png; sourceTree = "<group>"; };
+		D3245E8226D2FC7E00728CCA /* detalhe_contato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detalhe_contato.png; sourceTree = "<group>"; };
+		D3245E8326D2FC7E00728CCA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D3245E8426D2FC7E00728CCA /* menu_empresa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_empresa.png; sourceTree = "<group>"; };
+		D3245E8526D2FC7E00728CCA /* detalhe_servico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detalhe_servico.png; sourceTree = "<group>"; };
+		D3245E8626D2FC7F00728CCA /* menu_cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_cliente.png; sourceTree = "<group>"; };
+		D3245E8726D2FC7F00728CCA /* cliente2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cliente2.png; sourceTree = "<group>"; };
+		D3245E8826D2FC7F00728CCA /* cliente1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cliente1.png; sourceTree = "<group>"; };
+		D3245E8926D2FC7F00728CCA /* menu_servico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_servico.png; sourceTree = "<group>"; };
+		D3245E8A26D2FC7F00728CCA /* detalhe_empresa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detalhe_empresa.png; sourceTree = "<group>"; };
+		D3245E8B26D2FC7F00728CCA /* menu_contato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_contato.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,17 @@
 		D3245E4D26D2FBF000728CCA /* ATM Consultoria */ = {
 			isa = PBXGroup;
 			children = (
+				D3245E8826D2FC7F00728CCA /* cliente1.png */,
+				D3245E8726D2FC7F00728CCA /* cliente2.png */,
+				D3245E8126D2FC7E00728CCA /* detalhe_cliente.png */,
+				D3245E8226D2FC7E00728CCA /* detalhe_contato.png */,
+				D3245E8A26D2FC7F00728CCA /* detalhe_empresa.png */,
+				D3245E8526D2FC7E00728CCA /* detalhe_servico.png */,
+				D3245E8326D2FC7E00728CCA /* logo.png */,
+				D3245E8626D2FC7F00728CCA /* menu_cliente.png */,
+				D3245E8B26D2FC7F00728CCA /* menu_contato.png */,
+				D3245E8426D2FC7E00728CCA /* menu_empresa.png */,
+				D3245E8926D2FC7F00728CCA /* menu_servico.png */,
 				D3245E4E26D2FBF000728CCA /* AppDelegate.swift */,
 				D3245E5026D2FBF000728CCA /* SceneDelegate.swift */,
 				D3245E5226D2FBF000728CCA /* ViewController.swift */,
@@ -234,9 +267,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3245E9126D2FC7F00728CCA /* menu_cliente.png in Resources */,
+				D3245E8D26D2FC7F00728CCA /* detalhe_contato.png in Resources */,
+				D3245E9326D2FC7F00728CCA /* cliente1.png in Resources */,
+				D3245E8C26D2FC7F00728CCA /* detalhe_cliente.png in Resources */,
+				D3245E9226D2FC7F00728CCA /* cliente2.png in Resources */,
+				D3245E8F26D2FC7F00728CCA /* menu_empresa.png in Resources */,
+				D3245E9526D2FC7F00728CCA /* detalhe_empresa.png in Resources */,
+				D3245E8E26D2FC7F00728CCA /* logo.png in Resources */,
 				D3245E5E26D2FBF200728CCA /* LaunchScreen.storyboard in Resources */,
 				D3245E5B26D2FBF200728CCA /* Assets.xcassets in Resources */,
 				D3245E5626D2FBF000728CCA /* Main.storyboard in Resources */,
+				D3245E9426D2FC7F00728CCA /* menu_servico.png in Resources */,
+				D3245E9026D2FC7F00728CCA /* detalhe_servico.png in Resources */,
+				D3245E9626D2FC7F00728CCA /* menu_contato.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
