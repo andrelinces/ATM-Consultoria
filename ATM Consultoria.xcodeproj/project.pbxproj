@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3245E4F26D2FBF000728CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E4E26D2FBF000728CCA /* AppDelegate.swift */; };
+		D3245E5126D2FBF000728CCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E5026D2FBF000728CCA /* SceneDelegate.swift */; };
+		D3245E5326D2FBF000728CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E5226D2FBF000728CCA /* ViewController.swift */; };
+		D3245E5626D2FBF000728CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3245E5426D2FBF000728CCA /* Main.storyboard */; };
+		D3245E5926D2FBF000728CCA /* ATM_Consultoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3245E5726D2FBF000728CCA /* ATM_Consultoria.xcdatamodeld */; };
+		D3245E5B26D2FBF200728CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3245E5A26D2FBF200728CCA /* Assets.xcassets */; };
+		D3245E5E26D2FBF200728CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3245E5C26D2FBF200728CCA /* LaunchScreen.storyboard */; };
+		D3245E6926D2FBF200728CCA /* ATM_ConsultoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E6826D2FBF200728CCA /* ATM_ConsultoriaTests.swift */; };
+		D3245E7426D2FBF200728CCA /* ATM_ConsultoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245E7326D2FBF200728CCA /* ATM_ConsultoriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3245E6526D2FBF200728CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3245E4326D2FBF000728CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3245E4A26D2FBF000728CCA;
+			remoteInfo = "ATM Consultoria";
+		};
+		D3245E7026D2FBF200728CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3245E4326D2FBF000728CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3245E4A26D2FBF000728CCA;
+			remoteInfo = "ATM Consultoria";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3245E4B26D2FBF000728CCA /* ATM Consultoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM Consultoria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3245E4E26D2FBF000728CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3245E5026D2FBF000728CCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3245E5226D2FBF000728CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3245E5526D2FBF000728CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3245E5826D2FBF000728CCA /* ATM_Consultoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ATM_Consultoria.xcdatamodel; sourceTree = "<group>"; };
+		D3245E5A26D2FBF200728CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3245E5D26D2FBF200728CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3245E5F26D2FBF200728CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3245E6426D2FBF200728CCA /* ATM ConsultoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATM ConsultoriaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3245E6826D2FBF200728CCA /* ATM_ConsultoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM_ConsultoriaTests.swift; sourceTree = "<group>"; };
+		D3245E6A26D2FBF200728CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3245E6F26D2FBF200728CCA /* ATM ConsultoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ATM ConsultoriaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3245E7326D2FBF200728CCA /* ATM_ConsultoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM_ConsultoriaUITests.swift; sourceTree = "<group>"; };
+		D3245E7526D2FBF200728CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3245E4826D2FBF000728CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3245E6126D2FBF200728CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3245E6C26D2FBF200728CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3245E4226D2FBF000728CCA = {
+			isa = PBXGroup;
+			children = (
+				D3245E4D26D2FBF000728CCA /* ATM Consultoria */,
+				D3245E6726D2FBF200728CCA /* ATM ConsultoriaTests */,
+				D3245E7226D2FBF200728CCA /* ATM ConsultoriaUITests */,
+				D3245E4C26D2FBF000728CCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3245E4C26D2FBF000728CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3245E4B26D2FBF000728CCA /* ATM Consultoria.app */,
+				D3245E6426D2FBF200728CCA /* ATM ConsultoriaTests.xctest */,
+				D3245E6F26D2FBF200728CCA /* ATM ConsultoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3245E4D26D2FBF000728CCA /* ATM Consultoria */ = {
+			isa = PBXGroup;
+			children = (
+				D3245E4E26D2FBF000728CCA /* AppDelegate.swift */,
+				D3245E5026D2FBF000728CCA /* SceneDelegate.swift */,
+				D3245E5226D2FBF000728CCA /* ViewController.swift */,
+				D3245E5426D2FBF000728CCA /* Main.storyboard */,
+				D3245E5A26D2FBF200728CCA /* Assets.xcassets */,
+				D3245E5C26D2FBF200728CCA /* LaunchScreen.storyboard */,
+				D3245E5F26D2FBF200728CCA /* Info.plist */,
+				D3245E5726D2FBF000728CCA /* ATM_Consultoria.xcdatamodeld */,
+			);
+			path = "ATM Consultoria";
+			sourceTree = "<group>";
+		};
+		D3245E6726D2FBF200728CCA /* ATM ConsultoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3245E6826D2FBF200728CCA /* ATM_ConsultoriaTests.swift */,
+				D3245E6A26D2FBF200728CCA /* Info.plist */,
+			);
+			path = "ATM ConsultoriaTests";
+			sourceTree = "<group>";
+		};
+		D3245E7226D2FBF200728CCA /* ATM ConsultoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3245E7326D2FBF200728CCA /* ATM_ConsultoriaUITests.swift */,
+				D3245E7526D2FBF200728CCA /* Info.plist */,
+			);
+			path = "ATM ConsultoriaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3245E4A26D2FBF000728CCA /* ATM Consultoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3245E7826D2FBF200728CCA /* Build configuration list for PBXNativeTarget "ATM Consultoria" */;
+			buildPhases = (
+				D3245E4726D2FBF000728CCA /* Sources */,
+				D3245E4826D2FBF000728CCA /* Frameworks */,
+				D3245E4926D2FBF000728CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATM Consultoria";
+			productName = "ATM Consultoria";
+			productReference = D3245E4B26D2FBF000728CCA /* ATM Consultoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3245E6326D2FBF200728CCA /* ATM ConsultoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3245E7B26D2FBF200728CCA /* Build configuration list for PBXNativeTarget "ATM ConsultoriaTests" */;
+			buildPhases = (
+				D3245E6026D2FBF200728CCA /* Sources */,
+				D3245E6126D2FBF200728CCA /* Frameworks */,
+				D3245E6226D2FBF200728CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3245E6626D2FBF200728CCA /* PBXTargetDependency */,
+			);
+			name = "ATM ConsultoriaTests";
+			productName = "ATM ConsultoriaTests";
+			productReference = D3245E6426D2FBF200728CCA /* ATM ConsultoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3245E6E26D2FBF200728CCA /* ATM ConsultoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3245E7E26D2FBF200728CCA /* Build configuration list for PBXNativeTarget "ATM ConsultoriaUITests" */;
+			buildPhases = (
+				D3245E6B26D2FBF200728CCA /* Sources */,
+				D3245E6C26D2FBF200728CCA /* Frameworks */,
+				D3245E6D26D2FBF200728CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3245E7126D2FBF200728CCA /* PBXTargetDependency */,
+			);
+			name = "ATM ConsultoriaUITests";
+			productName = "ATM ConsultoriaUITests";
+			productReference = D3245E6F26D2FBF200728CCA /* ATM ConsultoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3245E4326D2FBF000728CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D3245E4A26D2FBF000728CCA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D3245E6326D2FBF200728CCA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D3245E4A26D2FBF000728CCA;
+					};
+					D3245E6E26D2FBF200728CCA = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D3245E4A26D2FBF000728CCA;
+					};
+				};
+			};
+			buildConfigurationList = D3245E4626D2FBF000728CCA /* Build configuration list for PBXProject "ATM Consultoria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3245E4226D2FBF000728CCA;
+			productRefGroup = D3245E4C26D2FBF000728CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3245E4A26D2FBF000728CCA /* ATM Consultoria */,
+				D3245E6326D2FBF200728CCA /* ATM ConsultoriaTests */,
+				D3245E6E26D2FBF200728CCA /* ATM ConsultoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3245E4926D2FBF000728CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3245E5E26D2FBF200728CCA /* LaunchScreen.storyboard in Resources */,
+				D3245E5B26D2FBF200728CCA /* Assets.xcassets in Resources */,
+				D3245E5626D2FBF000728CCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3245E6226D2FBF200728CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3245E6D26D2FBF200728CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3245E4726D2FBF000728CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3245E5926D2FBF000728CCA /* ATM_Consultoria.xcdatamodeld in Sources */,
+				D3245E5326D2FBF000728CCA /* ViewController.swift in Sources */,
+				D3245E4F26D2FBF000728CCA /* AppDelegate.swift in Sources */,
+				D3245E5126D2FBF000728CCA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3245E6026D2FBF200728CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3245E6926D2FBF200728CCA /* ATM_ConsultoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3245E6B26D2FBF200728CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3245E7426D2FBF200728CCA /* ATM_ConsultoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3245E6626D2FBF200728CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3245E4A26D2FBF000728CCA /* ATM Consultoria */;
+			targetProxy = D3245E6526D2FBF200728CCA /* PBXContainerItemProxy */;
+		};
+		D3245E7126D2FBF200728CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3245E4A26D2FBF000728CCA /* ATM Consultoria */;
+			targetProxy = D3245E7026D2FBF200728CCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3245E5426D2FBF000728CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3245E5526D2FBF000728CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3245E5C26D2FBF200728CCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3245E5D26D2FBF200728CCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3245E7626D2FBF200728CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3245E7726D2FBF200728CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3245E7926D2FBF200728CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "ATM Consultoria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.ATM-Consultoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3245E7A26D2FBF200728CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "ATM Consultoria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.ATM-Consultoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3245E7C26D2FBF200728CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "ATM ConsultoriaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.ATM-ConsultoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATM Consultoria.app/ATM Consultoria";
+			};
+			name = Debug;
+		};
+		D3245E7D26D2FBF200728CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "ATM ConsultoriaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.ATM-ConsultoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATM Consultoria.app/ATM Consultoria";
+			};
+			name = Release;
+		};
+		D3245E7F26D2FBF200728CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "ATM ConsultoriaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.ATM-ConsultoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ATM Consultoria";
+			};
+			name = Debug;
+		};
+		D3245E8026D2FBF200728CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWABM5NUJY;
+				INFOPLIST_FILE = "ATM ConsultoriaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.lincesapp.ATM-ConsultoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ATM Consultoria";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3245E4626D2FBF000728CCA /* Build configuration list for PBXProject "ATM Consultoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3245E7626D2FBF200728CCA /* Debug */,
+				D3245E7726D2FBF200728CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3245E7826D2FBF200728CCA /* Build configuration list for PBXNativeTarget "ATM Consultoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3245E7926D2FBF200728CCA /* Debug */,
+				D3245E7A26D2FBF200728CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3245E7B26D2FBF200728CCA /* Build configuration list for PBXNativeTarget "ATM ConsultoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3245E7C26D2FBF200728CCA /* Debug */,
+				D3245E7D26D2FBF200728CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3245E7E26D2FBF200728CCA /* Build configuration list for PBXNativeTarget "ATM ConsultoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3245E7F26D2FBF200728CCA /* Debug */,
+				D3245E8026D2FBF200728CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3245E5726D2FBF000728CCA /* ATM_Consultoria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3245E5826D2FBF000728CCA /* ATM_Consultoria.xcdatamodel */,
+			);
+			currentVersion = D3245E5826D2FBF000728CCA /* ATM_Consultoria.xcdatamodel */;
+			path = ATM_Consultoria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3245E4326D2FBF000728CCA /* Project object */;
+}
